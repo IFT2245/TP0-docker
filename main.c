@@ -388,5 +388,5 @@ error_code execute(char *machine_file, char *input) {
 }
 
 int main( int argc, char *argv[] )  {
-    printf("%d", execute(argv[1], argv[2]));   
+    printf("%d\n", execute(argv[1], argv[2]));   
 }
