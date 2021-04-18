@@ -386,3 +386,7 @@ error_code execute(char *machine_file, char *input) {
 
     return HAS_ERROR(err) ? err : (err & 1U);
 }
+
+int main( int argc, char *argv[] )  {
+    execute(argv[1], argv[2]);   
+}
