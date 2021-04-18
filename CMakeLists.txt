@@ -3,5 +3,4 @@ project(TP0 C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(TP0 main.c main.h)
-#add_executable(TP0_test template.c)
+add_executable(TP0 main.c)
